@@ -1,20 +1,13 @@
----
-title: Modèle de fiche
-description: Gabarit à copier pour créer une nouvelle fiche.
----
+# Modèle de fiche
 
-Copie le bloc ci-dessous dans un nouveau fichier `src/content/docs/fiches/mon-sujet.md`
+Copie le bloc ci-dessous dans un nouveau fichier `fiches/mon-sujet.md`
 (nom en minuscules-avec-tirets), puis remplace le contenu entre crochets.
 
 ````markdown
----
-title: [Titre court de la fiche]
-description: [Une phrase résumant le sujet]
----
+# [Titre court de la fiche]
 
-:::caution[⚠️ Brouillon — à vérifier avant diffusion]
-Les faits ci-dessous ne sont pas encore tous sourcés. Retire cet encadré quand la fiche est solide.
-:::
+> [!WARNING]
+> **Brouillon — à vérifier.** Retire cet encadré quand la fiche est solide et sourcée.
 
 ## La question
 [La question à laquelle la fiche répond, en une ligne.]
@@ -32,13 +25,10 @@ Les faits ci-dessous ne sont pas encore tous sourcés. Retire cet encadré quand
 [Ce qu'on en pense — bien séparé des faits. Tag 🔵.]
 
 ## Sources
-- [Liste des sources primaires, une par ligne.]
+- [Sources primaires, une par ligne.]
 
 ## Historique
 - [AAAA-MM-JJ] — [ce qui a changé]
 ````
 
-:::tip
 Niveaux de confiance : ✅ confirmé · 🟡 probable · 🟠 rumeur · 🔵 spéculation · ⛔ à vérifier.
-Encadrés disponibles : `:::note`, `:::tip`, `:::caution`, `:::danger`.
-:::

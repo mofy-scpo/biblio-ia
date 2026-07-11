@@ -1,60 +1,58 @@
 # Biblio IA
 
-Petite bibliothèque open-source de **veille et de fact-checking sur l'IA**, pensée pour être
-partagée dans un groupe (WhatsApp) : un lien unique, propre sur mobile, où **chaque affirmation
-porte sa source et son niveau de confiance**, et où une fiche se corrige facilement.
+Petite bibliothèque partagée de **veille et de fact-checking sur l'IA** (pour notre groupe).
+Des fiches en Markdown, où **chaque affirmation porte sa source et son niveau de confiance** —
+l'antidote au « une IA a dit que… ». Un simple dépôt : lisible sur mobile, historique gratuit,
+correction en un clic.
 
-> Prototype. On structure les découvertes petit à petit. Nom `biblio-ia` = provisoire, renommable.
+> Prototype. On structure nos découvertes petit à petit. Nom `biblio-ia` = provisoire.
 
-## Ce que c'est (et ce que ce n'est pas)
+## Les fiches
 
-- ✅ Un site statique (généré par **Astro Starlight**) à partir de fichiers **Markdown**.
-- ✅ Historique complet et gratuit via **git** (chaque modif est versionnée).
-- ✅ Contenu portable : du Markdown pur, jamais verrouillé par l'outil.
-- ❌ Pas de PDF, pas de base de données, pas de serveur, pas d'abonnement payant.
+- [La « fin » de l'IA open source chinoise ?](fiches/ia-open-source-chinoise-2026.md) — *brouillon, faits à vérifier* — 2026-07-11
 
-## Lancer en local
+## Les règles de la biblio
 
-Prérequis : [Bun](https://bun.sh).
+Ce sont elles qui font la différence avec un copier-coller de chatbot.
 
-```bash
-bun install
-bun run dev      # aperçu local sur http://localhost:4321
-bun run build    # génère le site dans dist/
-```
+**1. Chaque affirmation est sourcée ou marquée.** Un lien vers une source primaire. Pas de
+source ? On tague `⛔ à vérifier` — on ne diffuse pas un fait non vérifié.
 
-## Écrire une fiche
+**2. On note le niveau de confiance :**
 
-- Une fiche = un fichier `.md` dans `src/content/docs/fiches/`. La navigation se met à jour
-  **toute seule**.
-- Point de départ : [`src/content/docs/modele-fiche.md`](src/content/docs/modele-fiche.md).
-- Tu peux ouvrir `src/content/docs` comme un **vault Obsidian** et écrire les fiches comme
-  des notes.
-- Les 3 règles (sourçage, niveau de confiance, fait ≠ analyse) sont sur la page **Contribuer**.
+| Tag | Sens |
+|-----|------|
+| ✅ **confirmé** | Sourcé par au moins une source primaire fiable. |
+| 🟡 **probable** | Plusieurs sources secondaires concordantes, aucun démenti. |
+| 🟠 **rumeur** | Rapporté, mais non confirmé officiellement. |
+| 🔵 **spéculation** | Analyse ou opinion — pas un fait. |
+| ⛔ **à vérifier** | Pas encore sourcé. **Ne pas diffuser comme un fait.** |
 
-## Publier (choisir UNE option)
+**3. On distingue le fait de l'analyse.** Ce qui *est* (fait sourcé) et ce qu'*on en pense*
+(analyse, 🔵). Si rien n'est acté, on écrit au **conditionnel**.
 
-**Option recommandée — Cloudflare Pages (aucun workflow) :**
-1. Pousser le dépôt sur GitHub.
-2. Sur Cloudflare Pages : *Create a project* → connecter le dépôt.
-3. Build command : `bun run build` — Output : `dist`. Déploiement auto à chaque `push`.
-4. Laisser `base: '/'` dans `astro.config.mjs`.
+> **Règle d'or :** dans le doute, on descend d'un cran. Mieux vaut « la Chine *envisagerait* »
+> et vrai, que « la Chine *a décidé* » et faux.
 
-**Option alternative — GitHub Pages :**
-1. Dans `astro.config.mjs`, mettre `base: '/biblio-ia'` et décommenter `site`.
-2. Le workflow [`.github/workflows/deploy.yml`](.github/workflows/deploy.yml) publie à chaque `push`.
-3. Repo → Settings → Pages → Source = *GitHub Actions*.
+### Le réflexe anti-hallucination
 
-Dans les deux cas, remplacer `OWNER` par ton compte GitHub dans `astro.config.mjs` (bouton
-« Modifier cette page »).
+Les LLM inventent parfois des sources plausibles. Avant d'écrire « source : X » : **ouvre le
+lien** (il existe ? il dit bien ça ?), **attribue au bon média**, **date-le** (un « fait » de
+demain reste une prévision aujourd'hui).
 
-## Contribuer
+## Ajouter ou corriger une fiche
 
-Voir la page **Contribuer** du site. En prototype : passe tes trouvailles à Marc (lien +
-contexte), il crée/complète la fiche. L'édition web pour tout le monde pourra être ajoutée
-plus tard **sans rien réécrire**.
+- **Ajouter** : créer un fichier `.md` dans `fiches/` (voir [`MODELE.md`](MODELE.md)) et
+  l'ajouter à la liste ci-dessus. Sur GitHub : bouton **Add file → Create new file**.
+- **Corriger** : ouvrir la fiche sur GitHub → bouton crayon **✏️ Edit** → modifier → *Commit*.
+  Aucune commande git, juste un compte GitHub gratuit.
 
 ## Licence
 
-- **Contenu** (les fiches) : [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.fr).
-- **Code** (config du site) : MIT.
+Contenu sous [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.fr) *(réutilisable
+avec attribution)*.
+
+---
+
+*Envie du rendu « site web » un jour ? GitHub Pages (Jekyll intégré) = un fichier `_config.yml`,
+sans build ni dépendances. À faire seulement si le proto prend.*
