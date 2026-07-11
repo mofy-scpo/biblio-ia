@@ -43,6 +43,8 @@ lien** (il existe ? il dit bien ça ?), **attribue au bon média**, **date-le**.
 
 - **Reprise ≠ corroboration** : deux médias qui relaient la même dépêche ne se « confirment » pas
   l'un l'autre. On ne gonfle pas la confiance avec des reprises — on le signale (« reprise de X »).
+- **Un fait de demain reste une prévision** : un événement daté dans le futur se tague `⛔ à venir`
+  sur l'événement lui-même — même si l'*annonce*, elle, est déjà ✅ confirmée.
 
 ## Ajouter ou corriger une fiche
 
