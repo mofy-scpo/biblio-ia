@@ -1,0 +1,9 @@
+# dépendances & build
+node_modules/
+dist/
+.astro/
+
+# divers
+*.log
+.DS_Store
+.env

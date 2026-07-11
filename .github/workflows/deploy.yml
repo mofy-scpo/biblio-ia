@@ -1,0 +1,37 @@
+# Alternative de déploiement : GitHub Pages.
+# ⚠️ Si tu utilises ce workflow, mets `base: '/biblio-ia'` dans astro.config.mjs
+#    (et décommente `site`). Recommandation par défaut : Cloudflare Pages, qui ne
+#    nécessite AUCUN workflow (voir README).
+name: Déploiement (GitHub Pages)
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      # withastro/action installe les dépendances (détecte bun via bun.lockb) et build.
+      - uses: withastro/action@v3
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
