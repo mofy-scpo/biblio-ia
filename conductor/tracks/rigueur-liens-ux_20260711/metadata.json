@@ -1,0 +1,13 @@
+{
+  "id": "rigueur-liens-ux_20260711",
+  "title": "Rigueur éditoriale, vérification automatique des liens, et UX du site GitHub Pages",
+  "description": "Consolider la biblio après la première fiche fact-checkée : durcir les règles de rigueur (source primaire vs presse), enrichir le modèle de fiche, ajouter un vérificateur de liens bun/TS, et clarifier l'UX du site GitHub Pages autour d'un use case limpide.",
+  "status": "planned",
+  "created": "2026-07-11",
+  "type": "brownfield-enhancement",
+  "phases": [
+    "Phase 1 — Rigueur éditoriale & modèle de fiche",
+    "Phase 2 — Vérification automatique des liens",
+    "Phase 3 — UX du site GitHub Pages & use case limpide"
+  ]
+}
