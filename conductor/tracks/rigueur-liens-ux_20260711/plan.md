@@ -19,14 +19,14 @@ Le plan suit le `workflow.md` **adapté contenu** (portes fact-check + liens, pa
 
 ## Phase 2 — Vérification automatique des liens
 
-- [ ] **2.1** Créer `tools/check-links.ts` (bun/TS) : extraire les URLs de `fiches/*.md`.
-- [ ] **2.2** Tester chaque URL (HTTP, UA navigateur, suivi des redirections) ; rapport lisible
-  (URL → statut) ; **exit ≠ 0** si lien mort.
-- [ ] **2.3** Gérer les hôtes qui bloquent les robots (403/451) : les marquer « à vérifier manuellement »
-  plutôt que « mort » (éviter les faux négatifs).
-- [ ] **2.4** Lancer `bun tools/check-links.ts` sur les fiches actuelles → **vert**.
-- [ ] **2.5 (option)** GitHub Action lançant le vérificateur sur les PR (`.github/workflows/`).
-- [ ] **2.6** Documenter l'usage dans `README.md` (section contribution : « vérifier les liens avant PR »).
+- [x] **2.1** Créer `tools/check-links.ts` (bun/TS) : extraire les URLs de `fiches/*.md`. `d4a0cde`
+- [x] **2.2** Tester chaque URL (HTTP, UA navigateur, suivi des redirections) ; rapport lisible
+  (URL → statut) ; **exit ≠ 0** si lien mort. `d4a0cde`
+- [x] **2.3** Gérer les hôtes qui bloquent les robots (403/451) : les marquer « à vérifier manuellement »
+  plutôt que « mort » (éviter les faux négatifs). `d4a0cde`
+- [x] **2.4** Lancer `bun tools/check-links.ts` sur les fiches actuelles → **vert**. — *8/8 OK, exit 0* `d4a0cde`
+- [ ] **2.5 (option)** GitHub Action lançant le vérificateur sur les PR (`.github/workflows/`). — *SKIP : option reportée pour ne pas alourdir le proto (à activer si le repo grandit)*
+- [x] **2.6** Documenter l'usage dans `README.md` (section contribution : « vérifier les liens avant PR »). `11190c2`
 - [ ] **2.7 (checkpoint)** Vérification de fin de phase : exécuter le vérificateur, OK utilisateur, commit de checkpoint.
 
 ## Phase 3 — UX du site GitHub Pages & use case limpide
