@@ -9,7 +9,7 @@ correction en un clic.
 
 ## Les fiches
 
-- [La « fin » de l'IA open source chinoise ?](fiches/ia-open-source-chinoise-2026.md) — *brouillon, faits à vérifier* — 2026-07-11
+- [La « fin » de l'IA open source chinoise ?](fiches/ia-open-source-chinoise-2026.md) — *vérifiée, sources primaires* — 2026-07-11
 
 ## Les règles de la biblio
 
