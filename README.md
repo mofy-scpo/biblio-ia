@@ -9,20 +9,22 @@ correction en un clic.
 
 ## Les fiches
 
-- [La « fin » de l'IA open source chinoise ?](fiches/ia-open-source-chinoise-2026.md) — *vérifiée, sources primaires* — 2026-07-11
+- [La « fin » de l'IA open source chinoise ?](fiches/ia-open-source-chinoise-2026.md) — *vérifiée, sources citées* — 2026-07-11
 
 ## Les règles de la biblio
 
 Ce sont elles qui font la différence avec un copier-coller de chatbot.
 
-**1. Chaque affirmation est sourcée ou marquée.** Un lien vers une source primaire. Pas de
-source ? On tague `⛔ à vérifier` — on ne diffuse pas un fait non vérifié.
+**1. Chaque affirmation est sourcée ou marquée.** Un lien vers la source. On **distingue la
+source primaire** (le document ou l'acteur d'origine : texte officiel, communiqué, papier de
+recherche) **de la presse** qui la rapporte — fiable, mais *secondaire* : on ne l'étiquette pas
+« source primaire ». Pas de source ? On tague `⛔ à vérifier` — on ne diffuse pas un fait non vérifié.
 
 **2. On note le niveau de confiance :**
 
 | Tag | Sens |
 |-----|------|
-| ✅ **confirmé** | Sourcé par au moins une source primaire fiable. |
+| ✅ **confirmé** | Sourcé par au moins une source fiable et vérifiée (idéalement primaire). |
 | 🟡 **probable** | Plusieurs sources secondaires concordantes, aucun démenti. |
 | 🟠 **rumeur** | Rapporté, mais non confirmé officiellement. |
 | 🔵 **spéculation** | Analyse ou opinion — pas un fait. |
@@ -37,8 +39,10 @@ source ? On tague `⛔ à vérifier` — on ne diffuse pas un fait non vérifié
 ### Le réflexe anti-hallucination
 
 Les LLM inventent parfois des sources plausibles. Avant d'écrire « source : X » : **ouvre le
-lien** (il existe ? il dit bien ça ?), **attribue au bon média**, **date-le** (un « fait » de
-demain reste une prévision aujourd'hui).
+lien** (il existe ? il dit bien ça ?), **attribue au bon média**, **date-le**.
+
+- **Reprise ≠ corroboration** : deux médias qui relaient la même dépêche ne se « confirment » pas
+  l'un l'autre. On ne gonfle pas la confiance avec des reprises — on le signale (« reprise de X »).
 
 ## Ajouter ou corriger une fiche
 
