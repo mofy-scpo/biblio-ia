@@ -9,8 +9,8 @@ Le plan suit le `workflow.md` **adapté contenu** (portes fact-check + liens, pa
 
 - [x] **1.1** Ajouter au `README.md` (section « Les règles ») la distinction **source primaire vs presse**
   et « **reprise ≠ corroboration** » (ne pas gonfler la confiance par des reprises). `318530f`
-- [ ] **1.2** Ajouter au `README.md` la règle « **un fait de demain reste une prévision** » (événement
-  futur → `⛔ à venir` même si l'annonce est ✅).
+- [x] **1.2** Ajouter au `README.md` la règle « **un fait de demain reste une prévision** » (événement
+  futur → `⛔ à venir` même si l'annonce est ✅). `33c0581`
 - [ ] **1.3** Mettre à jour `MODELE.md` : tableau de confiance **ligne à ligne**, section optionnelle
   « **faits liés mais hors-sujet** », section **Sources vérifiées** (liens testés), rappel accents FR + acronymes.
 - [ ] **1.4** Relire la fiche Chine à l'aune du modèle mis à jour (cohérence), corriger si écart.
