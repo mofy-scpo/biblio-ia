@@ -7,8 +7,8 @@ Le plan suit le `workflow.md` **adapté contenu** (portes fact-check + liens, pa
 
 ## Phase 1 — Rigueur éditoriale & modèle de fiche
 
-- [ ] **1.1** Ajouter au `README.md` (section « Les règles ») la distinction **source primaire vs presse**
-  et « **reprise ≠ corroboration** » (ne pas gonfler la confiance par des reprises).
+- [x] **1.1** Ajouter au `README.md` (section « Les règles ») la distinction **source primaire vs presse**
+  et « **reprise ≠ corroboration** » (ne pas gonfler la confiance par des reprises). `318530f`
 - [ ] **1.2** Ajouter au `README.md` la règle « **un fait de demain reste une prévision** » (événement
   futur → `⛔ à venir` même si l'annonce est ✅).
 - [ ] **1.3** Mettre à jour `MODELE.md` : tableau de confiance **ligne à ligne**, section optionnelle
