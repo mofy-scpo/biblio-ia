@@ -31,9 +31,9 @@ Le plan suit le `workflow.md` **adapté contenu** (portes fact-check + liens, pa
 
 ## Phase 3 — UX du site GitHub Pages & use case limpide
 
-- [ ] **3.1** Écrire, en tête de la home (rendu Pages), le **use case en 3 étapes** (partage → fiche sourcée → lien).
-- [ ] **3.2** Vérifier/ajuster `_config.yml` (thème Jekyll) pour une navigation simple et lisible.
-- [ ] **3.3** S'assurer que la **liste des fiches** est accessible en 1 clic depuis la home.
+- [x] **3.1** Écrire, en tête de la home (rendu Pages), le **use case en 3 étapes** (partage → fiche sourcée → lien). `d2f25b1`
+- [x] **3.2** Vérifier/ajuster `_config.yml` (thème Jekyll) pour une navigation simple et lisible. — *déjà approprié : thème primer, titre, description, `lang: fr-FR`*
+- [x] **3.3** S'assurer que la **liste des fiches** est accessible en 1 clic depuis la home. — *« Les fiches » placé juste après le use case, en tête*
 - [ ] **3.4** Vérifier le **rendu mobile** du site Pages (capture headless / Interceptor).
 - [ ] **3.5 (checkpoint)** Vérification de fin de phase : capture mobile + desktop, OK utilisateur, commit de checkpoint.
 
