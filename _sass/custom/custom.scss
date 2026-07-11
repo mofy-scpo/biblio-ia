@@ -1,0 +1,67 @@
+// =============================================================================
+//  Biblio IA — surcouche de style (importée après le thème just-the-docs).
+//
+//  POUR TOUT ENLEVER : supprime CE fichier (rien d'autre n'en dépend), ou reviens
+//  au tag `site-sobre-v1` (`git reset --hard site-sobre-v1`).
+// =============================================================================
+
+$accent:      #2743a6; // bleu encre — sobre, cohérent avec le tag 🔵
+$accent-dark: #1b2e78;
+$card-bg:     #f5f7fb;
+$card-border: #e2e8f0;
+
+// --- Accent : liens de contenu ---
+.main-content a:not(.btn) {
+  color: $accent;
+  &:hover { color: $accent-dark; }
+}
+
+// --- Accent : élément de nav actif (repère clair de la page courante) ---
+.site-nav .nav-list .nav-list-item .nav-list-link.active {
+  color: $accent-dark;
+  font-weight: 600;
+  border-left: 3px solid $accent;
+}
+
+// --- Boutons primaires (page d'accueil) ---
+.btn-primary {
+  background-color: $accent;
+  background-image: none;
+  border-color: $accent;
+  &:hover { background-color: $accent-dark; background-image: none; }
+}
+
+// --- Titre du site + gros titre d'accueil ---
+.site-title { font-weight: 700; letter-spacing: -0.02em; }
+.main-content h1 { letter-spacing: -0.02em; }
+
+// --- Encadrés (blockquotes) → callouts élégants ---
+.main-content blockquote {
+  border-left: 4px solid $accent;
+  background: $card-bg;
+  padding: 0.65rem 1rem;
+  border-radius: 0 6px 6px 0;
+  margin-left: 0;
+  color: #33415a;
+}
+
+// --- Tableaux : en-tête accentué + zébrures douces (les tables de confiance ressortent) ---
+.main-content table {
+  thead th { background: $accent; color: #fff; border-color: $accent; }
+  tbody tr:nth-child(even) td { background: $card-bg; }
+}
+
+// --- Liste des fiches en "cartes" (ciblée par le wrapper .fiches-cards de fiches.md) ---
+.fiches-cards ul { list-style: none; padding-left: 0; margin-top: 1rem; }
+.fiches-cards li {
+  background: #fff;
+  border: 1px solid $card-border;
+  border-left: 4px solid $accent;
+  border-radius: 8px;
+  padding: 0.85rem 1.1rem;
+  margin-bottom: 0.7rem;
+  box-shadow: 0 1px 3px rgba(15, 23, 42, 0.06);
+  transition: box-shadow 0.15s ease, transform 0.15s ease;
+  &:hover { box-shadow: 0 3px 10px rgba(15, 23, 42, 0.1); transform: translateY(-1px); }
+  a { font-weight: 600; font-size: 1.05rem; }
+}
