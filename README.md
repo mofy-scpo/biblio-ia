@@ -52,6 +52,9 @@ lien** (il existe ? il dit bien ça ?), **attribue au bon média**, **date-le**.
   l'ajouter à la liste ci-dessus. Sur GitHub : bouton **Add file → Create new file**.
 - **Corriger** : ouvrir la fiche sur GitHub → bouton crayon **✏️ Edit** → modifier → *Commit*.
   Aucune commande git, juste un compte GitHub gratuit.
+- **Vérifier les liens** *(optionnel, si tu as [`bun`](https://bun.sh))* : `bun tools/check-links.ts`
+  teste que toutes les URLs des fiches résolvent (HTTP 200). À lancer avant de proposer une fiche —
+  aucun lien mort ne doit être diffusé.
 
 ## Licence
 
