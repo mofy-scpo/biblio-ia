@@ -13,7 +13,7 @@ Le plan suit le `workflow.md` **adapté contenu** (portes fact-check + liens, pa
   futur → `⛔ à venir` même si l'annonce est ✅). `33c0581`
 - [x] **1.3** Mettre à jour `MODELE.md` : tableau de confiance **ligne à ligne**, section optionnelle
   « **faits liés mais hors-sujet** », section **Sources vérifiées** (liens testés), rappel accents FR + acronymes. `19d3004`
-- [ ] **1.4** Relire la fiche Chine à l'aune du modèle mis à jour (cohérence), corriger si écart.
+- [x] **1.4** Relire la fiche Chine à l'aune du modèle mis à jour (cohérence), corriger si écart. — *déjà conforme (aucun mislabel « primaire », sections alignées)*
 - [ ] **1.5 (checkpoint)** Vérification de fin de phase : contrôle manuel des liens des règles/modèle,
   relecture, OK utilisateur, commit de checkpoint.
 
