@@ -7,6 +7,13 @@ correction en un clic.
 
 > Prototype. On structure nos découvertes petit à petit. Nom `biblio-ia` = provisoire.
 
+## Comment ça marche — en 3 étapes
+
+1. **Quelqu'un partage** une affirmation ou une vidéo sur l'IA (« la Chine ferme son IA open source ! »).
+2. **On ouvre ou on crée une fiche** : chaque affirmation y est **sourcée** (lien vérifié) et **taguée**
+   (✅ confirmé · 🟡 probable · 🟠 rumeur · 🔵 spéculation · ⛔ à vérifier), le **fait** séparé de l'**analyse**.
+3. **On partage le lien de la fiche** dans le groupe. Réponse sourcée, lisible sur mobile, corrigeable en un clic.
+
 ## Les fiches
 
 - [La « fin » de l'IA open source chinoise ?](fiches/ia-open-source-chinoise-2026.md) — *vérifiée, sources citées* — 2026-07-11
