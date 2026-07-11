@@ -44,3 +44,17 @@ Le plan suit le `workflow.md` **adapté contenu** (portes fact-check + liens, pa
 - Ordre conseillé : Phase 1 (rigueur, rapide, haute valeur) → Phase 2 (outil) → Phase 3 (UX).
 - Chaque tâche = un commit ; conventions dans `workflow.md`.
 - Garder le repo Markdown plat : l'unique code ajouté est `tools/check-links.ts`.
+
+---
+
+## Review (2026-07-11) — `/conductor:review`
+
+Verdict : **prêt**, bonne qualité. Plan conforme, contenu conforme aux règles éditoriales, outil
+fonctionnel (`bun tools/check-links.ts` → 8/8 OK, exit 0). Findings appliqués (`530885f`) :
+
+- **Medium** (styleguide TS) — guillemets doubles → **simples** dans `tools/check-links.ts`. ✅ corrigé
+- **Low** — assertion `(e as Error)` → guard `e instanceof Error`. ✅ corrigé
+- **Low** (par design, non corrigé) — les URLs d'hôtes bloquant les robots (`BLOCKS_BOTS`) sont
+  marquées « à vérifier à la main », pas « mortes » (compromis assumé pour éviter les faux négatifs).
+
+Cleanup : **skip** — track conservé dans le registre, marqué complet.
