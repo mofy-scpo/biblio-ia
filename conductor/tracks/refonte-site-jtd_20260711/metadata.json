@@ -1,0 +1,14 @@
+{
+  "id": "refonte-site-jtd_20260711",
+  "title": "Refonte UX du site : thème just-the-docs + structure multi-pages",
+  "description": "Rendre le site GitHub Pages clair et ergonomique : thème documentaire just-the-docs (nav latérale + recherche, sans build), et séparation en pages Accueil / Fiches / Règles / Modèle. Sort les règles de la home, met les fiches en avant.",
+  "status": "planned",
+  "created": "2026-07-11",
+  "type": "brownfield-enhancement",
+  "decision": "Direction choisie par Marc : just-the-docs (option A). Reste 100% GitHub Pages natif (remote_theme, aucun build local, fiches en Markdown).",
+  "phases": [
+    "Phase 1 — Thème & configuration",
+    "Phase 2 — Pages & structure de navigation",
+    "Phase 3 — Vérification live"
+  ]
+}

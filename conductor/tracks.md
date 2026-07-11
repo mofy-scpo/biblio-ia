@@ -7,3 +7,8 @@ dans son dossier.
 
 - [x] **Track : Rigueur éditoriale, vérification automatique des liens, et UX du site GitHub Pages**
   *Link: [./tracks/rigueur-liens-ux_20260711/](./tracks/rigueur-liens-ux_20260711/)*
+
+---
+
+- [~] **Track : Refonte UX du site — thème just-the-docs + structure multi-pages**
+  *Link: [./tracks/refonte-site-jtd_20260711/](./tracks/refonte-site-jtd_20260711/)*
