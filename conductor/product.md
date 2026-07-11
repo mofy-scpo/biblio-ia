@@ -22,7 +22,7 @@ n'importe qui de voir, d'un coup d'œil : ce qui est acté, ce qui est en débat
 ## Utilisateurs cibles
 
 - **Primaire** : les membres du groupe WhatsApp (curieux d'IA, pas forcément experts).
-- **Secondaire** : toute personne tombant sur le repo — réutilisable sous **CC BY 4.0**.
+- **Secondaire** : toute personne tombant sur le repo — réutilisable sous **CC BY-NC 4.0** (crédit + non commercial).
 - **Contributeur** : au départ Marc (curation) ; l'édition web s'ouvrira plus tard **sans réécriture**
   (tout est Markdown versionné).
 

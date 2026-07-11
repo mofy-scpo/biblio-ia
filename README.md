@@ -35,4 +35,4 @@ Chaque affirmation est **sourcée** et **taguée** (✅ confirmé · 🟡 probab
 
 ## Licence
 
-Contenu sous [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.fr) *(réutilisable avec attribution)*.
+Contenu sous [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.fr) *(réutilisable avec attribution, usage non commercial)*.

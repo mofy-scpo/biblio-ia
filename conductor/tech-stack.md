@@ -13,7 +13,7 @@
 
 - **GitHub** (dépôt public `mofy-scpo/biblio-ia`) — rendu Markdown natif.
 - **GitHub Pages** via **Jekyll** intégré (`_config.yml`) — site web sans build ni dépendances.
-- Licence contenu : **CC BY 4.0**.
+- Licence contenu : **CC BY-NC 4.0** (réutilisation créditée, non commerciale).
 
 ## Outillage (léger, si besoin prouvé)
 

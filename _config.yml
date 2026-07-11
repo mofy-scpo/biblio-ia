@@ -31,7 +31,7 @@ gh_edit_repository: "https://github.com/mofy-scpo/biblio-ia"
 gh_edit_branch: "main"
 gh_edit_view_mode: "edit"
 
-footer_content: "Contenu sous CC BY 4.0 — Biblio IA (prototype)."
+footer_content: "Contenu sous CC BY-NC 4.0 (réutilisation créditée, non commerciale) — Biblio IA (prototype)."
 
 # Ne pas publier la tuyauterie interne comme pages du site
 exclude:
