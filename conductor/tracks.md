@@ -10,5 +10,5 @@ dans son dossier.
 
 ---
 
-- [~] **Track : Refonte UX du site — thème just-the-docs + structure multi-pages**
+- [x] **Track : Refonte UX du site — thème just-the-docs + structure multi-pages**
   *Link: [./tracks/refonte-site-jtd_20260711/](./tracks/refonte-site-jtd_20260711/)*

@@ -24,7 +24,14 @@ Statut : `[ ]` à faire · `[~]` en cours · `[x]` fait (+ SHA). Workflow adapt�
 - [x] **3.3** Live : nav latérale + recherche présentes, home OK, fiche en page enfant, `conductor/` exclu (404).
 - [x] **3.3b** **Fix 404 au clic** : les liens en page (`{% link %}`) sortaient sans `/biblio-ia` →
   passés en `relative_url`, `url`+`baseurl` fixés dans `_config.yml`. Vérifié live (href = `/biblio-ia/…`). `9925157`
-- [~] **3.4 (checkpoint)** Récap + **OK visuel de Marc** (goût / mobile) — EN ATTENTE de son retour avant de clore.
+- [x] **3.4 (checkpoint)** OK visuel de Marc reçu (« c'est bon »). Track clos.
+
+## Phase 4 — Polish visuel (à la demande de Marc)
+
+- [x] **4.1** Surcouche de style dans `_sass/custom/custom.scss` : accent bleu encre `#2743a6`,
+  callouts (blockquotes), en-têtes de tableaux + zébrures, fiches en cartes ; emoji 📚 dans l'en-tête. `8c3ceaf`
+- [x] **4.2** Rollback garanti : tag `site-sobre-v1` (état sobre) + tout le style isolé dans un seul fichier.
+- [x] **4.3** Vérifié live : accent compilé dans le CSS, cartes + emoji rendus, link-checker vert.
 
 ## Notes
 
