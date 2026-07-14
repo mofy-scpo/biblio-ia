@@ -28,9 +28,11 @@ Matt Shumer explique que ses démos « impossibles » viennent moins de prompts 
 - **Poser des « house rules ».** Quelques règles non négociables qui bornent la liberté (ex. « ne
   code pas de cas particuliers en dur, décris le comportement voulu »). Un sous-agent peut vérifier
   le travail contre ces règles avant tout push.
-- **Donner une vraie barre de "done".** Pas d'adjectifs (« haute qualité ») : un test concret et
-  dur, auto-vérifiable (« un inconnu ne doit pas distinguer notre rendu de la vraie photo »). Si on
-  ne sait pas mesurer, on demande au modèle d'inventer la mesure.
+- **Donner une vraie barre de "done".** Bannir les adjectifs (« haute qualité » — le modèle
+  s'arrête à *sa* définition, souvent trop basse) au profit d'un **critère concret qu'il peut
+  vérifier lui-même**. Exemple de l'auteur, sur une **image générée** : viser un rendu
+  *indiscernable d'une vraie photo*. Et si on ne sait pas mesurer la qualité voulue, on demande au
+  modèle d'**inventer la mesure**.
 - **Séparer qui construit et qui note.** L'agent qui *build* est biaisé : toujours un sous-agent au
   **contexte neuf** qui tente de **prouver que ce n'est pas fini**.
 - **Boucler jusqu'à la barre** (`/loop`), surtout en créatif : build → auto-check → corriger le
