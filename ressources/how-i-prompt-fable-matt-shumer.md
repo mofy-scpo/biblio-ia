@@ -2,6 +2,7 @@
 title: How I Prompt Fable — Matt Shumer
 parent: Ressources
 nav_order: 1
+date: 2026-07-12
 ---
 
 # How I Prompt Fable — Matt Shumer

@@ -29,6 +29,7 @@ de la **presse**. Voir les [Règles]({{ '/regles.html' | relative_url }}).
 title: [Titre — de préférence une question]
 parent: Actualités
 nav_order: [ordre dans la liste]
+date: [AAAA-MM-JJ]
 ---
 
 # [Titre — de préférence une question]
@@ -74,6 +75,7 @@ Nouveau fichier `ressources/mon-sujet.md`, puis ajoute-le à
 title: [Titre — Auteur]
 parent: Ressources
 nav_order: [ordre]
+date: [AAAA-MM-JJ]
 ---
 
 # [Titre — Auteur]

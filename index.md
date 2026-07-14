@@ -15,6 +15,17 @@ Veille et **fact-checking** sur l'IA — chaque affirmation avec sa **source** e
 
 ---
 
+## Dernières publications
+
+Les plus récents (actualités + ressources), directement ici :
+
+<div class="cards" markdown="1">
+{% assign recent = site.pages | where_exp: "p", "p.date" | sort: "date" | reverse %}
+{% for p in recent limit: 10 %}
+- [{{ p.title }}]({{ p.url | relative_url }}) — *{{ p.parent }}* · {{ p.date | date: "%d/%m/%Y" }}
+{% endfor %}
+</div>
+
 ## Comment ça marche — en 3 étapes
 
 1. **Quelqu'un partage** une affirmation ou une vidéo sur l'IA (« la Chine ferme son IA open source ! »).

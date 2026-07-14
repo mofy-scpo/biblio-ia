@@ -2,6 +2,7 @@
 title: La « fin » de l'IA open source chinoise ?
 parent: Actualités
 nav_order: 1
+date: 2026-07-11
 ---
 
 # La « fin » de l'IA open source chinoise ?
