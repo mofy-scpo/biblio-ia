@@ -5,7 +5,7 @@ lang: fr-FR
 
 # Site PROJET GitHub Pages → l'URL a un préfixe /biblio-ia. Indispensable pour que les liens
 # (relative_url) pointent au bon endroit et ne renvoient pas de 404.
-url: "https://mofy-scpo.github.io"
+url: "https://marcoflaherty.github.io"
 baseurl: "/biblio-ia"
 
 # Thème documentaire : nav latérale + recherche. Épinglé pour éviter les surprises de build.
@@ -21,13 +21,13 @@ color_scheme: light
 # Lien "dépôt" en haut à droite
 aux_links:
   "Dépôt GitHub":
-    - "https://github.com/mofy-scpo/biblio-ia"
+    - "https://github.com/marcoflaherty/biblio-ia"
 aux_links_new_tab: true
 
 # Bouton "corriger cette page sur GitHub" en bas de chaque page (garde le réflexe crayon)
 gh_edit_link: true
 gh_edit_link_text: "✏️ Corriger cette page sur GitHub"
-gh_edit_repository: "https://github.com/mofy-scpo/biblio-ia"
+gh_edit_repository: "https://github.com/marcoflaherty/biblio-ia"
 gh_edit_branch: "main"
 gh_edit_view_mode: "edit"
 

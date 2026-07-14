@@ -4,7 +4,7 @@ Petite bibliothèque partagée de **veille et de fact-checking sur l'IA** (pour 
 Des fiches en Markdown, où **chaque affirmation porte sa source et son niveau de confiance** —
 l'antidote au « une IA a dit que… ».
 
-> **🌐 Site : <https://mofy-scpo.github.io/biblio-ia/>** — navigation + recherche.
+> **🌐 Site : <https://marcoflaherty.github.io/biblio-ia/>** — navigation + recherche.
 > C'est là qu'on lit les **actualités** (ce qu'on vérifie), les **ressources** (ce qu'on partage) et les règles.
 
 > Prototype. On structure nos découvertes petit à petit. Nom `biblio-ia` = provisoire.

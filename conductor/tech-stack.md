@@ -11,7 +11,7 @@
 
 ## Rendu / hébergement
 
-- **GitHub** (dépôt public `mofy-scpo/biblio-ia`) — rendu Markdown natif.
+- **GitHub** (dépôt public `marcoflaherty/biblio-ia`) — rendu Markdown natif.
 - **GitHub Pages** via **Jekyll** intégré (`_config.yml`) — site web sans build ni dépendances.
 - Licence contenu : **CC BY-NC 4.0** (réutilisation créditée, non commerciale).
 
