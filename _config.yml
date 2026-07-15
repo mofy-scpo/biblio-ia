@@ -38,5 +38,6 @@ exclude:
   - conductor/
   - tools/
   - README.md
+  - LICENSE
   - .gitignore
   - public/

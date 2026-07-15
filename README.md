@@ -1,5 +1,8 @@
 # Biblio IA
 
+> **Statut : prototype éditorial maintenu.** Dépôt canonique :
+> [`MarcOFlaherty/biblio-ia`](https://github.com/MarcOFlaherty/biblio-ia).
+
 Petite bibliothèque partagée de **veille et de fact-checking sur l'IA** (pour notre groupe).
 Des fiches en Markdown, où **chaque affirmation porte sa source et son niveau de confiance** —
 l'antidote au « une IA a dit que… ».
@@ -26,8 +29,9 @@ l'antidote au « une IA a dit que… ».
 - **Corriger** : sur le site, bouton **✏️ Corriger cette page sur GitHub** en bas de page ; ou
   ouvrir la fiche sur GitHub → crayon **✏️ Edit** → *Commit*. Aucune commande git, juste un compte GitHub.
 - **Vérifier les liens** *(optionnel, si tu as [`bun`](https://bun.sh))* : `bun tools/check-links.ts`
-  teste que toutes les URLs des contenus (actualités + ressources) résolvent (HTTP 200). À lancer
-  avant de proposer un contenu — aucun lien mort ne doit être diffusé.
+  teste que toutes les URLs des contenus (actualités + ressources) répondent correctement. Cela
+  vérifie leur disponibilité, pas que la page étaye toujours l'affirmation citée. Le contrôle est
+  aussi exécuté automatiquement chaque semaine et à chaque pull request.
 
 ## Les règles, en un mot
 
@@ -36,4 +40,5 @@ Chaque affirmation est **sourcée** et **taguée** (✅ confirmé · 🟡 probab
 
 ## Licence
 
-Contenu sous [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.fr) *(réutilisable avec attribution, usage non commercial)*.
+Contenu sous [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.fr)
+*(réutilisable avec attribution, usage non commercial)* ; voir [LICENSE](LICENSE).
