@@ -13,5 +13,6 @@ pas (ce sont souvent des avis) : on **résume**, on **attribue** (qui l'a dit, o
 <div class="cards" markdown="1">
 
 - [How I Prompt Fable — Matt Shumer]({{ '/ressources/how-i-prompt-fable-matt-shumer.html' | relative_url }}) — *guide de prompting* — Matt Shumer
+- [Caler ses fenêtres de 5 h de Claude — Marc O'Flaherty]({{ '/ressources/caler-fenetres-5h-claude.html' | relative_url }}) — *astuce / automatisation* — Marc O'Flaherty
 
 </div>
